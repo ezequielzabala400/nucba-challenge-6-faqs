@@ -1,0 +1,76 @@
+
+@media (min-width: 1024px) {
+
+    html{
+        font-size: 12px;
+    }
+
+    .Faq-mobile-imgs{
+        display: none;
+    }
+    
+    .Faq-desktop-imgs{
+        position: relative;
+        height: 100%;
+        width: 60%;
+        display:block;
+        
+    }
+
+    .Faq-desktop-imgs div{
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #Faq-section{
+        margin-top: 0px;
+        max-width: 1024px;
+        flex-direction: row;
+    }
+    
+    
+    .desktop-img-1{
+        height: 400px;
+        width: 500px;
+        position: absolute;
+        top: 60px;
+        left: -80px;
+        z-index: 2;
+    }
+
+    .desktop-img-2{
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        bottom: 80px;
+        left: -80px;
+    }
+
+    .desktop-img-3{
+        overflow: visible;
+        position: absolute;
+        top: 220px;
+        left: -90px;
+        z-index: 4;
+    }
+
+    
+    .Faq-info{
+        flex-direction: column;
+        width: 40%;
+        align-items: flex-start;
+        
+    }
+
+    .Faq-list{
+        padding: 20px 50px 0 0;
+    }
+
+    .arrow{
+        height: 12px;
+        width: 16px;
+    }
+
+}
